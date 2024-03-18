@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - monitoring_server
+id: remote_user_save_action
+label: 'Save remote_users'
+type: remote_user
+plugin: entity:save_action:remote_user
+configuration: {  }

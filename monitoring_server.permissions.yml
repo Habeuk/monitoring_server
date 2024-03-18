@@ -1,0 +1,12 @@
+administer performance types:
+  title: 'Administer performance types'
+  description: 'Maintain the types of performance entity.'
+  restrict access: true
+
+administer host:
+  title: 'Administer hosts'
+  restrict access: true
+
+administer remote_user:
+  title: 'Administer remote_users'
+  restrict access: true

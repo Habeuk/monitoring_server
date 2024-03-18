@@ -1,0 +1,12 @@
+monitoring_server.performance_type.*:
+  type: config_entity
+  label: 'performance type config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    uuid:
+      type: string

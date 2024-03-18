@@ -1,0 +1,72 @@
+entity.performance.view:
+  title: 'View'
+  route_name: entity.performance.canonical
+  base_route: entity.performance.canonical
+entity.performance.edit_form:
+  title: 'Edit'
+  route_name: entity.performance.edit_form
+  base_route: entity.performance.canonical
+entity.performance.delete_form:
+  title: 'Delete'
+  route_name: entity.performance.delete_form
+  base_route: entity.performance.canonical
+  weight: 10
+entity.performance.collection:
+  title: 'performances'
+  route_name: entity.performance.collection
+  base_route: system.admin_content
+  weight: 10
+entity.performance_type.edit_form:
+  title: 'Edit'
+  route_name: entity.performance_type.edit_form
+  base_route: entity.performance_type.edit_form
+entity.performance_type.collection:
+  title: 'List'
+  route_name: entity.performance_type.collection
+  base_route: entity.performance_type.collection
+
+entity.host.settings:
+  title: 'Settings'
+  route_name: entity.host.settings
+  base_route: entity.host.settings
+entity.host.view:
+  title: 'View'
+  route_name: entity.host.canonical
+  base_route: entity.host.canonical
+entity.host.edit_form:
+  title: 'Edit'
+  route_name: entity.host.edit_form
+  base_route: entity.host.canonical
+entity.host.delete_form:
+  title: 'Delete'
+  route_name: entity.host.delete_form
+  base_route: entity.host.canonical
+  weight: 10
+entity.host.collection:
+  title: 'hosts'
+  route_name: entity.host.collection
+  base_route: system.admin_content
+  weight: 10
+
+entity.remote_user.settings:
+  title: 'Settings'
+  route_name: entity.remote_user.settings
+  base_route: entity.remote_user.settings
+entity.remote_user.view:
+  title: 'View'
+  route_name: entity.remote_user.canonical
+  base_route: entity.remote_user.canonical
+entity.remote_user.edit_form:
+  title: 'Edit'
+  route_name: entity.remote_user.edit_form
+  base_route: entity.remote_user.canonical
+entity.remote_user.delete_form:
+  title: 'Delete'
+  route_name: entity.remote_user.delete_form
+  base_route: entity.remote_user.canonical
+  weight: 10
+entity.remote_user.collection:
+  title: 'remote_users'
+  route_name: entity.remote_user.collection
+  base_route: system.admin_content
+  weight: 10

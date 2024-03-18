@@ -1,0 +1,35 @@
+entity.performance_type.collection:
+  title: 'performance types'
+  description: 'Manage and CRUD actions on performance type.'
+  parent: system.admin_structure
+  route_name: entity.performance_type.collection
+
+entity.performance.collection:
+  title: 'performances'
+  description: 'List of performances.'
+  route_name: entity.performance.collection
+  parent: system.admin_content
+
+entity.host.settings:
+  title: 'host'
+  description: 'Configure a host entity type.'
+  route_name:  entity.host.settings
+  parent: system.admin_structure
+
+entity.host.collection:
+  title: 'hosts'
+  description: 'List of hosts.'
+  route_name: entity.host.collection
+  parent: system.admin_content
+
+entity.remote_user.settings:
+  title: 'remote_user'
+  description: 'Configure a remote_user entity type.'
+  route_name:  entity.remote_user.settings
+  parent: system.admin_structure
+
+entity.remote_user.collection:
+  title: 'remote_users'
+  description: 'List of remote_users.'
+  route_name: entity.remote_user.collection
+  parent: system.admin_content

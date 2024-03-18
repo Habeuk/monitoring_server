@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - monitoring_server
+id: performance_delete_action
+label: 'Delete performances'
+type: performance
+plugin: entity:delete_action:performance
+configuration: {  }

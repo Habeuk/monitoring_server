@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - monitoring_server
+id: host_delete_action
+label: 'Delete hosts'
+type: host
+plugin: entity:delete_action:host
+configuration: {  }

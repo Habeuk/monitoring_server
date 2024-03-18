@@ -1,0 +1,23 @@
+performance.type_add:
+  title: 'Add performance type'
+  route_name: entity.performance_type.add_form
+  appears_on:
+    - entity.performance_type.collection
+
+performance.add_page:
+  title: 'Add performance'
+  route_name: entity.performance.add_page
+  appears_on:
+    - entity.performance.collection
+
+host.add_form:
+  title: 'Add host'
+  route_name: entity.host.add_form
+  appears_on:
+    - entity.host.collection
+
+remote_user.add_form:
+  title: 'Add remote_user'
+  route_name: entity.remote_user.add_form
+  appears_on:
+    - entity.remote_user.collection

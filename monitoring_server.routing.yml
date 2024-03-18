@@ -1,0 +1,23 @@
+entity.host.settings:
+  path: 'admin/structure/host'
+  defaults:
+    _form: '\Drupal\monitoring_server\Form\HostSettingsForm'
+    _title: 'host'
+  requirements:
+    _permission: 'administer host'
+
+entity.remote_user.settings:
+  path: 'admin/structure/remote-user'
+  defaults:
+    _form: '\Drupal\monitoring_server\Form\RemoteUserSettingsForm'
+    _title: 'remote_user'
+  requirements:
+    _permission: 'administer remote_user'
+
+monitoring_server.example:
+  path: '/monitoring-server/example'
+  defaults:
+    _title: 'add new performance'
+    _controller: '\Drupal\monitoring_server\Controller\MonitoringServerController'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,10 @@
+entity.performance.edit_form:
+  route_name: entity.performance.edit_form
+  group: performance
+  title: 'Edit'
+
+entity.performance.delete_form:
+  route_name: entity.performance.delete_form
+  group: performance
+  title: 'Delete'
+  weight: 10

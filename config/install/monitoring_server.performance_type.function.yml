@@ -1,0 +1,6 @@
+langcode: fr
+status: true
+dependencies: {  }
+id: function
+label: function
+description: "Permet de suivre les performances d’exécution d'une function."

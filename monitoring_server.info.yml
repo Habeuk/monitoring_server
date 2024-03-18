@@ -1,0 +1,8 @@
+name: 'monitoring_server'
+type: module
+description: 'permet d&#039;enregistrer les données de performances provenant d&#039;autres site'
+package: Custom
+core_version_requirement: ^10
+dependencies:
+  - drupal:rest
+  - drupal:basic_auth

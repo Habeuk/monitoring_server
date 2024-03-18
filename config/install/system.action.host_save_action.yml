@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - monitoring_server
+id: host_save_action
+label: 'Save hosts'
+type: host
+plugin: entity:save_action:host
+configuration: {  }
