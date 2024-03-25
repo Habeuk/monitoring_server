@@ -14,8 +14,8 @@ entity.remote_user.settings:
   requirements:
     _permission: 'administer remote_user'
 
-monitoring_server.example:
-  path: '/monitoring-server/example'
+monitoring_server.save_performance:
+  path: '/monitoring-server/save-performance'
   defaults:
     _title: 'add new performance'
     _controller: '\Drupal\monitoring_server\Controller\MonitoringServerController'

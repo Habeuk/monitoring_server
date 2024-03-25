@@ -13,25 +13,29 @@ use Symfony\Component\HttpFoundation\Request;
  */
 final class MonitoringServerController extends ControllerBase {
 
-  /**
-   * The controller constructor.
-   */
-  public function __construct(private readonly EntityTypeManagerInterface $entityTypeManager) {
-  }
+  // /**
+  // * The controller constructor.
+  // */
+  // public function __construct(private readonly EntityTypeManagerInterface
+  // $entityTypeManager) {
+  // }
 
-  /**
-   *
-   * {@inheritdoc}
-   */
-  public static function create(ContainerInterface $container): self {
-    return new self($container->get('entity_type.manager'));
-  }
+  // /**
+  // *
+  // * {@inheritdoc}
+  // */
+  // public static function create(ContainerInterface $container): self {
+  // return new self($container->get('entity_type.manager'));
+  // }
 
   /**
    * On ferra la sauvegarde a ce niveau car on a besoin d'un comportement
    * specifique.
    */
-  public function __invoke(): array {
+  public function __invoke(Request $Request): array {
+    $this->getLogger('monitoring_server')->notice("receive message");
+    $data = $Request->getContent();
+    \Stephane888\Debug\debugLog::kintDebugDrupal($data, '__invoke', true);
     $build['content'] = [
       '#type' => 'item',
       '#markup' => $this->t('It works!')
